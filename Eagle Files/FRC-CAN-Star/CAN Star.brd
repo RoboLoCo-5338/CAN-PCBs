@@ -28,10 +28,10 @@
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
@@ -52,8 +52,8 @@
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -157,14 +157,14 @@
 </layers>
 <board>
 <plain>
-<wire x1="-2.0828" y1="-12.192" x2="53.5432" y2="-12.192" width="0" layer="20"/>
-<wire x1="53.5432" y1="-12.192" x2="53.5432" y2="42.926" width="0" layer="20"/>
-<wire x1="53.5432" y1="42.926" x2="-2.0828" y2="42.926" width="0" layer="20"/>
-<wire x1="-2.0828" y1="42.926" x2="-2.0828" y2="-12.192" width="0" layer="20"/>
+<wire x1="-5.42416875" y1="-12.446" x2="56.88456875" y2="-12.446" width="0" layer="20"/>
+<wire x1="56.88456875" y1="-12.446" x2="56.88456875" y2="43.18" width="0" layer="20"/>
+<wire x1="56.88456875" y1="43.18" x2="-5.42416875" y2="43.18" width="0" layer="20"/>
+<wire x1="-5.42416875" y1="43.18" x2="-5.42416875" y2="-12.446" width="0" layer="20"/>
 <hole x="13.0302" y="15.367" drill="3.81" locked="yes"/>
 <hole x="38.4302" y="15.367" drill="3.81" locked="yes"/>
 <text x="25.7302" y="16.2814" size="1.651" layer="27" font="vector" ratio="10" align="center">RoboLoCo
-team5338.org</text>
+Team 5338</text>
 <text x="25.7302" y="12.954" size="1.524" layer="27" font="vector" ratio="10" align="center">Star Board v5</text>
 <text x="2.8702" y="19.939" size="1.27" layer="27" font="vector" ratio="10" align="center">Y(H)</text>
 <text x="7.9502" y="19.939" size="1.27" layer="27" font="vector" ratio="10" align="center">G(L)</text>
@@ -228,6 +228,10 @@ team5338.org</text>
 <text x="43.5102" y="10.795" size="1.27" layer="27" font="vector" ratio="10" align="center">G(L)</text>
 <text x="0.737615625" y="13.0556" size="1.27" layer="27" font="vector" ratio="10" align="center">ON</text>
 <text x="51.0032" y="13.0556" size="1.27" layer="27" font="vector" ratio="10" align="center">ON</text>
+<hole x="-2.249425" y="38.1" drill="3.81"/>
+<hole x="-2.249425" y="-7.366" drill="3.81"/>
+<hole x="53.709825" y="38.1" drill="3.81"/>
+<hole x="53.709825" y="-7.366" drill="3.81"/>
 </plain>
 <libraries>
 <library name="con-wago-508" urn="urn:adsk.eagle:library:196">
