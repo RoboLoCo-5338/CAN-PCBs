@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.0">
+<eagle version="8.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -5688,6 +5688,10 @@ CONN_03
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,-6.41773,42.5027,JUMPER1,,,,,"/>
+<approved hash="113,1,-6.41773,27.2627,JUMPER2,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
