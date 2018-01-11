@@ -166,48 +166,28 @@
 <hole x="38.4302" y="15.367" drill="3.81" locked="yes"/>
 <text x="25.7302" y="16.2814" size="1.651" layer="27" font="vector" ratio="10" align="center">RoboLoCo
 Team 5338</text>
-<text x="25.7302" y="12.954" size="1.524" layer="27" font="vector" ratio="10" align="center">Star Board v5</text>
+<text x="25.7302" y="12.954" size="1.524" layer="27" font="vector" ratio="10" align="center">Star Board v6</text>
 <text x="2.8702" y="19.939" size="1.27" layer="27" font="vector" ratio="10" align="center">Y(H)</text>
 <text x="7.9502" y="19.939" size="1.27" layer="27" font="vector" ratio="10" align="center">G(L)</text>
-<hole x="2.8702" y="35.56" drill="2.54" locked="yes"/>
 <hole x="2.8702" y="40.64" drill="2.54" locked="yes"/>
 <hole x="7.9502" y="40.64" drill="2.54" locked="yes"/>
-<hole x="7.9502" y="35.56" drill="2.54" locked="yes"/>
-<hole x="13.0302" y="35.56" drill="2.54" locked="yes"/>
 <hole x="13.0302" y="40.64" drill="2.54" locked="yes"/>
 <hole x="18.1102" y="40.64" drill="2.54" locked="yes"/>
-<hole x="18.1102" y="35.56" drill="2.54" locked="yes"/>
-<hole x="23.1902" y="35.56" drill="2.54" locked="yes"/>
 <hole x="23.1902" y="40.64" drill="2.54" locked="yes"/>
 <hole x="28.2702" y="40.64" drill="2.54" locked="yes"/>
-<hole x="28.2702" y="35.56" drill="2.54" locked="yes"/>
-<hole x="33.3502" y="35.56" drill="2.54" locked="yes"/>
 <hole x="33.3502" y="40.64" drill="2.54" locked="yes"/>
 <hole x="38.4302" y="40.64" drill="2.54" locked="yes"/>
-<hole x="38.4302" y="35.56" drill="2.54" locked="yes"/>
-<hole x="43.5102" y="35.56" drill="2.54" locked="yes"/>
 <hole x="43.5102" y="40.64" drill="2.54" locked="yes"/>
 <hole x="48.5902" y="40.64" drill="2.54" locked="yes"/>
-<hole x="48.5902" y="35.56" drill="2.54" locked="yes"/>
 <hole x="2.8702" y="-9.906" drill="2.54" locked="yes"/>
-<hole x="2.8702" y="-4.826" drill="2.54" locked="yes"/>
-<hole x="7.9502" y="-4.826" drill="2.54" locked="yes"/>
 <hole x="7.9502" y="-9.906" drill="2.54" locked="yes"/>
 <hole x="13.0302" y="-9.906" drill="2.54" locked="yes"/>
-<hole x="13.0302" y="-4.826" drill="2.54" locked="yes"/>
-<hole x="18.1102" y="-4.826" drill="2.54" locked="yes"/>
 <hole x="18.1102" y="-9.906" drill="2.54" locked="yes"/>
 <hole x="23.1902" y="-9.906" drill="2.54" locked="yes"/>
-<hole x="23.1902" y="-4.826" drill="2.54" locked="yes"/>
-<hole x="28.2702" y="-4.826" drill="2.54" locked="yes"/>
 <hole x="28.2702" y="-9.906" drill="2.54" locked="yes"/>
 <hole x="33.3502" y="-9.906" drill="2.54" locked="yes"/>
-<hole x="33.3502" y="-4.826" drill="2.54" locked="yes"/>
-<hole x="38.4302" y="-4.826" drill="2.54" locked="yes"/>
 <hole x="38.4302" y="-9.906" drill="2.54" locked="yes"/>
 <hole x="43.5102" y="-9.906" drill="2.54" locked="yes"/>
-<hole x="43.5102" y="-4.826" drill="2.54" locked="yes"/>
-<hole x="48.5902" y="-4.826" drill="2.54" locked="yes"/>
 <hole x="48.5902" y="-9.906" drill="2.54" locked="yes"/>
 <text x="13.0302" y="19.939" size="1.27" layer="27" font="vector" ratio="10" align="center">Y(H)</text>
 <text x="18.1102" y="19.939" size="1.27" layer="27" font="vector" ratio="10" align="center">G(L)</text>
