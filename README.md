@@ -1,6 +1,6 @@
 # Quick Overview
 The goal of this project was to create a Printed Circuit Board (PCB) for our Controller Area Network (CAN) Bus using a star topology for increased resilience compared to our previous bus topology.
-You can learn more CAN and various topologies [here](www.mindsensors.com/content/86-can-and-its-topology).
+You can learn more CAN and various topologies [here](http://www.mindsensors.com/content/86-can-and-its-topology).
 Each board was designed to accommodate up to **10** CAN devices to interconnect, i.e., 8 Victor SPXs or Talon SRXs along with a Power Distribution Panel and roboRIO.
 Easy expansion is possible by linking multiple boards to each other directly to increase the total number of connections, i.e., 2 boards allows for 18 total connections.
 When combined with code that is fault-tolerant, it can be possible to recover from the loss or disconnection of a device on the bus which would otherwise be catrostrophic.
