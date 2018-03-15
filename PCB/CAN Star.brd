@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.1">
+<eagle version="8.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -28,10 +28,10 @@
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
@@ -52,8 +52,8 @@
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -166,29 +166,9 @@
 <hole x="38.4302" y="15.367" drill="3.81" locked="yes"/>
 <text x="25.7302" y="16.2814" size="1.651" layer="27" font="vector" ratio="10" align="center">RoboLoCo
 Team 5338</text>
-<text x="25.7302" y="12.954" size="1.524" layer="27" font="vector" ratio="10" align="center">Star Board v6</text>
+<text x="25.7302" y="12.954" size="1.524" layer="27" font="vector" ratio="10" align="center">Star Board v7</text>
 <text x="2.8702" y="19.939" size="1.27" layer="27" font="vector" ratio="10" align="center">Y(H)</text>
 <text x="7.9502" y="19.939" size="1.27" layer="27" font="vector" ratio="10" align="center">G(L)</text>
-<hole x="2.8702" y="40.64" drill="2.54" locked="yes"/>
-<hole x="7.9502" y="40.64" drill="2.54" locked="yes"/>
-<hole x="13.0302" y="40.64" drill="2.54" locked="yes"/>
-<hole x="18.1102" y="40.64" drill="2.54" locked="yes"/>
-<hole x="23.1902" y="40.64" drill="2.54" locked="yes"/>
-<hole x="28.2702" y="40.64" drill="2.54" locked="yes"/>
-<hole x="33.3502" y="40.64" drill="2.54" locked="yes"/>
-<hole x="38.4302" y="40.64" drill="2.54" locked="yes"/>
-<hole x="43.5102" y="40.64" drill="2.54" locked="yes"/>
-<hole x="48.5902" y="40.64" drill="2.54" locked="yes"/>
-<hole x="2.8702" y="-9.906" drill="2.54" locked="yes"/>
-<hole x="7.9502" y="-9.906" drill="2.54" locked="yes"/>
-<hole x="13.0302" y="-9.906" drill="2.54" locked="yes"/>
-<hole x="18.1102" y="-9.906" drill="2.54" locked="yes"/>
-<hole x="23.1902" y="-9.906" drill="2.54" locked="yes"/>
-<hole x="28.2702" y="-9.906" drill="2.54" locked="yes"/>
-<hole x="33.3502" y="-9.906" drill="2.54" locked="yes"/>
-<hole x="38.4302" y="-9.906" drill="2.54" locked="yes"/>
-<hole x="43.5102" y="-9.906" drill="2.54" locked="yes"/>
-<hole x="48.5902" y="-9.906" drill="2.54" locked="yes"/>
 <text x="13.0302" y="19.939" size="1.27" layer="27" font="vector" ratio="10" align="center">Y(H)</text>
 <text x="18.1102" y="19.939" size="1.27" layer="27" font="vector" ratio="10" align="center">G(L)</text>
 <text x="23.1902" y="19.939" size="1.27" layer="27" font="vector" ratio="10" align="center">Y(H)</text>
@@ -213,6 +193,8 @@ Team 5338</text>
 <hole x="-2.249425" y="-7.366" drill="3.81"/>
 <hole x="53.709825" y="38.1" drill="3.81"/>
 <hole x="53.709825" y="-7.366" drill="3.81"/>
+<text x="25.7302" y="-7.366" size="2.032" layer="27" font="vector" ratio="10" align="center">https://tinyurl.com/5338-PCBs</text>
+<text x="25.7302" y="38.1" size="2.032" layer="27" font="vector" ratio="10" align="center">http://team5338.org</text>
 </plain>
 <libraries>
 <library name="con-wago-508" urn="urn:adsk.eagle:library:196">
