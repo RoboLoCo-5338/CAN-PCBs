@@ -5,6 +5,7 @@ Each board was designed to accommodate up to **10** CAN devices, i.e., 8 Victor 
 Easy expansion is possible by linking multiple boards to each other directly to increase the total number of connections, i.e., 2 boards allows for 18 total connections.
 When combined with code that is fault-tolerant, it can be possible to recover from the loss or disconnection of a device on the bus, which would be catastrophic on a daisy-chained network.
 This project contains two folders, one for the PCB that our team currently uses on our competition robot, as well as one for the PCB that we plan to handout at the Chesapeake District Championships.
+We have used these boards for two districts events, and are satisfied with their excellent performance and ease of wiring.
 
 # PCB Specifics
 The PCB uses screw terminals to connect devices to the bus.
@@ -22,7 +23,7 @@ Particularly, the spacing around the center holes allows for the use of thumb sc
 # Files
 For each board, the files provided include the Eagle BRD, SCH, and EPF files, as well as STL files for the 3D printed holder.
 The files are compatible with [Eagle](https://www.autodesk.com/products/eagle/free-download) 8.0 and up.
-The DRU file used by our PCB manufacturer, [Silver Circuits](http://www.custompcb.com), is also provided. However, the files can be used to manufacture the board with the PCB fab of your choice
+The DRU file used by our PCB fab, [Silver Circuits](http://www.custompcb.com), is also provided. However, the Eagles files can be used to manufacture the board with the PCB fab of your choice
 For each board, there are also images of the board layout and schematic in Eagle, a render of the holder, and images of the actual PCB in the 3D-printed holder.
 
 # Final Notes
