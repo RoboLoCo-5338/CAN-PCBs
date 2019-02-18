@@ -27,5 +27,5 @@ The DRU file used by our PCB fab, [Silver Circuits](http://www.custompcb.com), i
 For each board, there are also images of the board layout and schematic in Eagle, a render of the holder, and images of the actual PCB in the 3D-printed holder.
 
 # Final Notes
-If you have any questions, feel reach out and contact us at team5338@gmail.com or on [Chief Delphi](https://www.chiefdelphi.com/forums/showthread.php?threadid=164176).
+If you have any questions, feel reach out and contact us at contact@roboloco.org or on [Chief Delphi](https://www.chiefdelphi.com/forums/showthread.php?threadid=164176).
 Please share with us your experiences if you use them and any feedback you have!
