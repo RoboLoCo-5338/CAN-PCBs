@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.7.0">
+<eagle version="9.3.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -164,9 +164,9 @@
 <wire x1="-5.42416875" y1="43.18" x2="-5.42416875" y2="-12.446" width="0" layer="20"/>
 <hole x="13.0302" y="15.367" drill="3.81" locked="yes"/>
 <hole x="38.4302" y="15.367" drill="3.81" locked="yes"/>
-<text x="25.7302" y="16.2814" size="1.651" layer="27" font="vector" ratio="10" align="center">RoboLoCo
+<text x="25.7302" y="15.2654" size="1.651" layer="27" font="vector" ratio="10" align="center">RoboLoCo
 Team 5338</text>
-<text x="25.7302" y="12.954" size="1.524" layer="27" font="vector" ratio="10" align="center">Star Board v7</text>
+<text x="25.7302" y="-3.81" size="2.1844" layer="27" font="vector" ratio="10" align="center">Star Board v8</text>
 <text x="2.8702" y="19.939" size="1.27" layer="27" font="vector" ratio="10" align="center">Y(H)</text>
 <text x="7.9502" y="19.939" size="1.27" layer="27" font="vector" ratio="10" align="center">G(L)</text>
 <text x="13.0302" y="19.939" size="1.27" layer="27" font="vector" ratio="10" align="center">Y(H)</text>
@@ -193,8 +193,8 @@ Team 5338</text>
 <hole x="-2.249425" y="-7.366" drill="3.81"/>
 <hole x="53.709825" y="38.1" drill="3.81"/>
 <hole x="53.709825" y="-7.366" drill="3.81"/>
-<text x="25.7302" y="-7.366" size="2.032" layer="27" font="vector" ratio="10" align="center">https://tinyurl.com/5338-PCBs</text>
-<text x="25.7302" y="38.1" size="2.032" layer="27" font="vector" ratio="10" align="center">http://team5338.org</text>
+<text x="25.7302" y="-7.366" size="1.9304" layer="27" font="vector" ratio="10" align="center">https://www.roboloco.org/canpcb</text>
+<text x="25.7302" y="38.1" size="2.032" layer="27" font="vector" ratio="10" align="center">https://www.roboloco.org</text>
 </plain>
 <libraries>
 <library name="con-wago-508" urn="urn:adsk.eagle:library:196">
@@ -1494,6 +1494,9 @@ design rules under a new name.</description>
 <param name="checkRestrict" value="1"/>
 <param name="checkStop" value="0"/>
 <param name="checkValues" value="0"/>
+<param name="checkNames" value="1"/>
+<param name="checkWireStubs" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -1826,6 +1829,13 @@ design rules under a new name.</description>
 <wire x1="48.26" y1="12.7" x2="48.20793125" y2="13.0556" width="0.254" layer="1"/>
 </signal>
 </signals>
+<mfgpreviewcolors>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
+</mfgpreviewcolors>
 <errors>
 <approved hash="19,1,04e4bce3fc53745d"/>
 <approved hash="5,1,999d42f8deda1512"/>
