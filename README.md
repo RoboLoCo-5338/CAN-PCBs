@@ -7,6 +7,10 @@ When combined with code that is fault-tolerant, it can be possible to recover fr
 This project contains two folders, one for the PCB that our team currently uses on our competition robot, as well as one for the PCB that we plan to handout at the Chesapeake District Championships.
 We have used these boards for two districts events, and are satisfied with their excellent performance and ease of wiring.
 
+# RoboLoCo
+* [RoboLoCo's Website](https://www.roboloco.org)
+* [CAN PCB Website](https://www.roboloco.org/canpcb)
+
 # PCB Specifics
 The PCB uses screw terminals to connect devices to the bus.
 They, such as the ones we use from [Amazon](https://www.amazon.com/gp/product/B00EZ3QPCU/), are standard Wago 237-132 screw terminals.
