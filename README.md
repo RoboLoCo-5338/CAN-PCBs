@@ -31,7 +31,7 @@ The DRU file used by our PCB fab, [Silver Circuits](http://www.custompcb.com), i
 For each board, there are also images of the board layout and schematic in Eagle, a render of the holder, and images of the actual PCB in the 3D-printed holder.
 
 # Versions
-## Star Board v7
+## Star Board v7 (aka Competition PCB)
 This is the current production board that is tested and in use on RoboLoCo's 2019 robot. 
 
 ## Star Board v8
