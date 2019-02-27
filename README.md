@@ -30,6 +30,16 @@ The files are compatible with [Eagle](https://www.autodesk.com/products/eagle/fr
 The DRU file used by our PCB fab, [Silver Circuits](http://www.custompcb.com), is also provided. However, the Eagles files can be used to manufacture the board with the PCB fab of your choice
 For each board, there are also images of the board layout and schematic in Eagle, a render of the holder, and images of the actual PCB in the 3D-printed holder.
 
+# Versions
+## Star Board v7
+This is the current production board that is tested and in use on RoboLoCo's 2019 robot. 
+
+## Star Board v8
+This is incomplete and under active development. 
+
+## Star Board Wide v8
+This is incomplete and under active development. 
+
 # Final Notes
-If you have any questions, feel reach out and contact us at contact@roboloco.org or on [Chief Delphi](https://www.chiefdelphi.com/forums/showthread.php?threadid=164176).
+If you have any questions, feel reach out and contact us at contact@roboloco.org.
 Please share with us your experiences if you use them and any feedback you have!
