@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.1">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5518,11 +5518,11 @@ CONN_03
 </class>
 </classes>
 <parts>
-<part name="CAN-0" library="con-wago-508" library_urn="urn:adsk.eagle:library:196" deviceset="W237-02P" device="" package3d_urn="urn:adsk.eagle:package:10734/1" value="CAN 0"/>
-<part name="CAN-1" library="con-wago-508" library_urn="urn:adsk.eagle:library:196" deviceset="W237-02P" device="" package3d_urn="urn:adsk.eagle:package:10734/1" value="CAN 1"/>
-<part name="CAN-2" library="con-wago-508" library_urn="urn:adsk.eagle:library:196" deviceset="W237-02P" device="" package3d_urn="urn:adsk.eagle:package:10734/1" value="CAN 2"/>
-<part name="CAN-3" library="con-wago-508" library_urn="urn:adsk.eagle:library:196" deviceset="W237-02P" device="" package3d_urn="urn:adsk.eagle:package:10734/1" value="CAN 3"/>
-<part name="CAN-4" library="con-wago-508" library_urn="urn:adsk.eagle:library:196" deviceset="W237-02P" device="" package3d_urn="urn:adsk.eagle:package:10734/1" value="CAN 4"/>
+<part name="C00" library="con-wago-508" library_urn="urn:adsk.eagle:library:196" deviceset="W237-02P" device="" package3d_urn="urn:adsk.eagle:package:10734/1"/>
+<part name="C01" library="con-wago-508" library_urn="urn:adsk.eagle:library:196" deviceset="W237-02P" device="" package3d_urn="urn:adsk.eagle:package:10734/1" value="CAN 1"/>
+<part name="C02" library="con-wago-508" library_urn="urn:adsk.eagle:library:196" deviceset="W237-02P" device="" package3d_urn="urn:adsk.eagle:package:10734/1" value="CAN 2"/>
+<part name="C03" library="con-wago-508" library_urn="urn:adsk.eagle:library:196" deviceset="W237-02P" device="" package3d_urn="urn:adsk.eagle:package:10734/1" value="CAN 3"/>
+<part name="C04" library="con-wago-508" library_urn="urn:adsk.eagle:library:196" deviceset="W237-02P" device="" package3d_urn="urn:adsk.eagle:package:10734/1" value="CAN 4"/>
 <part name="CAN-R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0207/10" package3d_urn="urn:adsk.eagle:package:25939/1" value="120Ω"/>
 <part name="CAN-5" library="con-wago-508" library_urn="urn:adsk.eagle:library:196" deviceset="W237-02P" device="" package3d_urn="urn:adsk.eagle:package:10734/1" value="CAN 5"/>
 <part name="CAN-6" library="con-wago-508" library_urn="urn:adsk.eagle:library:196" deviceset="W237-02P" device="" package3d_urn="urn:adsk.eagle:package:10734/1" value="CAN 6"/>
@@ -5536,50 +5536,49 @@ CONN_03
 <part name="CAN-11" library="con-wago-508" library_urn="urn:adsk.eagle:library:196" deviceset="W237-02P" device="" package3d_urn="urn:adsk.eagle:package:10734/1" value="CAN 1"/>
 <part name="CAN-12" library="con-wago-508" library_urn="urn:adsk.eagle:library:196" deviceset="W237-02P" device="" package3d_urn="urn:adsk.eagle:package:10734/1" value="CAN 2"/>
 <part name="CAN-13" library="con-wago-508" library_urn="urn:adsk.eagle:library:196" deviceset="W237-02P" device="" package3d_urn="urn:adsk.eagle:package:10734/1" value="CAN 3"/>
-<part name="CAN-14" library="con-wago-508" library_urn="urn:adsk.eagle:library:196" deviceset="W237-02P" device="" package3d_urn="urn:adsk.eagle:package:10734/1" value="CAN 4"/>
 <part name="CAN-15" library="con-wago-508" library_urn="urn:adsk.eagle:library:196" deviceset="W237-02P" device="" package3d_urn="urn:adsk.eagle:package:10734/1" value="CAN 5"/>
 <part name="CAN-16" library="con-wago-508" library_urn="urn:adsk.eagle:library:196" deviceset="W237-02P" device="" package3d_urn="urn:adsk.eagle:package:10734/1" value="CAN 6"/>
 <part name="CAN-17" library="con-wago-508" library_urn="urn:adsk.eagle:library:196" deviceset="W237-02P" device="" package3d_urn="urn:adsk.eagle:package:10734/1" value="CAN 7"/>
 <part name="CAN-18" library="con-wago-508" library_urn="urn:adsk.eagle:library:196" deviceset="W237-02P" device="" package3d_urn="urn:adsk.eagle:package:10734/1" value="CAN 8"/>
-<part name="CAN-19" library="con-wago-508" library_urn="urn:adsk.eagle:library:196" deviceset="W237-02P" device="" package3d_urn="urn:adsk.eagle:package:10734/1" value="CAN 9"/>
+<part name="CAN-20" library="con-wago-508" library_urn="urn:adsk.eagle:library:196" deviceset="W237-02P" device="" package3d_urn="urn:adsk.eagle:package:10734/1" value="CAN GND"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="CAN-0" gate="-1" x="-15.24" y="15.24" smashed="yes">
+<instance part="C00" gate="-1" x="-15.24" y="15.24" smashed="yes">
 <attribute name="NAME" x="-16.51" y="16.129" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="CAN-0" gate="-2" x="-15.24" y="10.16" smashed="yes">
+<instance part="C00" gate="-2" x="-15.24" y="10.16" smashed="yes">
 <attribute name="VALUE" x="-15.24" y="12.7" size="1.778" layer="96"/>
 <attribute name="NAME" x="-16.51" y="11.049" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="CAN-1" gate="-1" x="-15.24" y="5.08" smashed="yes">
+<instance part="C01" gate="-1" x="-15.24" y="5.08" smashed="yes">
 <attribute name="NAME" x="-16.51" y="5.969" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="CAN-1" gate="-2" x="-15.24" y="0" smashed="yes">
+<instance part="C01" gate="-2" x="-15.24" y="0" smashed="yes">
 <attribute name="VALUE" x="-15.24" y="2.54" size="1.778" layer="96"/>
 <attribute name="NAME" x="-16.51" y="0.889" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="CAN-2" gate="-1" x="-15.24" y="-5.08" smashed="yes">
+<instance part="C02" gate="-1" x="-15.24" y="-5.08" smashed="yes">
 <attribute name="NAME" x="-16.51" y="-4.191" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="CAN-2" gate="-2" x="-15.24" y="-10.16" smashed="yes">
+<instance part="C02" gate="-2" x="-15.24" y="-10.16" smashed="yes">
 <attribute name="VALUE" x="-15.24" y="-7.62" size="1.778" layer="96"/>
 <attribute name="NAME" x="-16.51" y="-9.271" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="CAN-3" gate="-1" x="-15.24" y="-15.24" smashed="yes">
+<instance part="C03" gate="-1" x="-15.24" y="-15.24" smashed="yes">
 <attribute name="NAME" x="-16.51" y="-14.351" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="CAN-3" gate="-2" x="-15.24" y="-20.32" smashed="yes">
+<instance part="C03" gate="-2" x="-15.24" y="-20.32" smashed="yes">
 <attribute name="VALUE" x="-15.24" y="-17.78" size="1.778" layer="96"/>
 <attribute name="NAME" x="-16.51" y="-19.431" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="CAN-4" gate="-1" x="-15.24" y="-25.4" smashed="yes">
+<instance part="C04" gate="-1" x="-15.24" y="-25.4" smashed="yes">
 <attribute name="NAME" x="-16.51" y="-24.511" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="CAN-4" gate="-2" x="-15.24" y="-30.48" smashed="yes">
+<instance part="C04" gate="-2" x="-15.24" y="-30.48" smashed="yes">
 <attribute name="VALUE" x="-15.24" y="-27.94" size="1.778" layer="96"/>
 <attribute name="NAME" x="-16.51" y="-29.591" size="1.778" layer="95" rot="R180"/>
 </instance>
@@ -5662,13 +5661,6 @@ CONN_03
 <attribute name="VALUE" x="-15.24" y="-68.58" size="1.778" layer="96"/>
 <attribute name="NAME" x="-16.51" y="-70.231" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="CAN-14" gate="-1" x="-15.24" y="-76.2" smashed="yes">
-<attribute name="NAME" x="-16.51" y="-75.311" size="1.778" layer="95" rot="R180"/>
-</instance>
-<instance part="CAN-14" gate="-2" x="-15.24" y="-81.28" smashed="yes">
-<attribute name="VALUE" x="-15.24" y="-78.74" size="1.778" layer="96"/>
-<attribute name="NAME" x="-16.51" y="-80.391" size="1.778" layer="95" rot="R180"/>
-</instance>
 <instance part="CAN-15" gate="-1" x="15.24" y="-40.64" smashed="yes" rot="R180">
 <attribute name="NAME" x="16.51" y="-41.529" size="1.778" layer="95"/>
 </instance>
@@ -5697,107 +5689,17 @@ CONN_03
 <attribute name="VALUE" x="15.24" y="-68.58" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="16.51" y="-66.929" size="1.778" layer="95"/>
 </instance>
-<instance part="CAN-19" gate="-1" x="15.24" y="-81.28" smashed="yes" rot="R180">
-<attribute name="NAME" x="16.51" y="-82.169" size="1.778" layer="95"/>
+<instance part="CAN-20" gate="-1" x="-5.08" y="-96.52" smashed="yes">
+<attribute name="NAME" x="-6.35" y="-95.631" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="CAN-19" gate="-2" x="15.24" y="-76.2" smashed="yes" rot="R180">
-<attribute name="VALUE" x="15.24" y="-78.74" size="1.778" layer="96" rot="R180"/>
-<attribute name="NAME" x="16.51" y="-77.089" size="1.778" layer="95"/>
+<instance part="CAN-20" gate="-2" x="-5.08" y="-101.6" smashed="yes">
+<attribute name="VALUE" x="-5.08" y="-99.06" size="1.778" layer="96"/>
+<attribute name="NAME" x="-6.35" y="-100.711" size="1.778" layer="95" rot="R180"/>
 </instance>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="CAN-B" class="0">
-<segment>
-<pinref part="CAN-5" gate="-2" pin="KL"/>
-<wire x1="10.16" y1="15.24" x2="7.62" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="15.24" x2="7.62" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="CAN-6" gate="-2" pin="KL"/>
-<wire x1="10.16" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.1524" layer="91"/>
-<junction x="7.62" y="5.08"/>
-<pinref part="CAN-9" gate="-2" pin="KL"/>
-<wire x1="7.62" y1="-5.08" x2="7.62" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="-15.24" x2="7.62" y2="-25.4" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="-25.4" x2="10.16" y2="-25.4" width="0.1524" layer="91"/>
-<pinref part="CAN-8" gate="-2" pin="KL"/>
-<wire x1="7.62" y1="-15.24" x2="10.16" y2="-15.24" width="0.1524" layer="91"/>
-<junction x="7.62" y="-15.24"/>
-<pinref part="CAN-7" gate="-2" pin="KL"/>
-<wire x1="7.62" y1="-5.08" x2="10.16" y2="-5.08" width="0.1524" layer="91"/>
-<junction x="7.62" y="-5.08"/>
-<pinref part="CAN-0" gate="-2" pin="KL"/>
-<wire x1="-10.16" y1="10.16" x2="-5.08" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="10.16" x2="-5.08" y2="0" width="0.1524" layer="91"/>
-<pinref part="CAN-4" gate="-2" pin="KL"/>
-<wire x1="-5.08" y1="0" x2="-5.08" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="-10.16" x2="-5.08" y2="-20.32" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="-20.32" x2="-5.08" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="-30.48" x2="-10.16" y2="-30.48" width="0.1524" layer="91"/>
-<pinref part="CAN-3" gate="-2" pin="KL"/>
-<wire x1="-10.16" y1="-20.32" x2="-5.08" y2="-20.32" width="0.1524" layer="91"/>
-<junction x="-5.08" y="-20.32"/>
-<pinref part="CAN-2" gate="-2" pin="KL"/>
-<wire x1="-10.16" y1="-10.16" x2="-5.08" y2="-10.16" width="0.1524" layer="91"/>
-<junction x="-5.08" y="-10.16"/>
-<pinref part="CAN-1" gate="-2" pin="KL"/>
-<wire x1="-10.16" y1="0" x2="-5.08" y2="0" width="0.1524" layer="91"/>
-<junction x="-5.08" y="0"/>
-<junction x="7.62" y="-25.4"/>
-<pinref part="CAN-R2" gate="G$1" pin="2"/>
-<pinref part="CAN-R1" gate="G$1" pin="2"/>
-<wire x1="12.7" y1="45.72" x2="12.7" y2="30.48" width="0.1524" layer="91"/>
-<junction x="12.7" y="30.48"/>
-<wire x1="12.7" y1="17.78" x2="12.7" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="17.78" x2="7.62" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="17.78" x2="7.62" y2="15.24" width="0.1524" layer="91"/>
-<junction x="7.62" y="15.24"/>
-<pinref part="CAN-15" gate="-2" pin="KL"/>
-<wire x1="10.16" y1="-35.56" x2="7.62" y2="-35.56" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="-35.56" x2="7.62" y2="-45.72" width="0.1524" layer="91"/>
-<pinref part="CAN-16" gate="-2" pin="KL"/>
-<wire x1="10.16" y1="-45.72" x2="7.62" y2="-45.72" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="-45.72" x2="7.62" y2="-55.88" width="0.1524" layer="91"/>
-<junction x="7.62" y="-45.72"/>
-<pinref part="CAN-19" gate="-2" pin="KL"/>
-<wire x1="7.62" y1="-55.88" x2="7.62" y2="-66.04" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="-66.04" x2="7.62" y2="-76.2" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="-76.2" x2="10.16" y2="-76.2" width="0.1524" layer="91"/>
-<pinref part="CAN-18" gate="-2" pin="KL"/>
-<wire x1="7.62" y1="-66.04" x2="10.16" y2="-66.04" width="0.1524" layer="91"/>
-<junction x="7.62" y="-66.04"/>
-<pinref part="CAN-17" gate="-2" pin="KL"/>
-<wire x1="7.62" y1="-55.88" x2="10.16" y2="-55.88" width="0.1524" layer="91"/>
-<junction x="7.62" y="-55.88"/>
-<pinref part="CAN-10" gate="-2" pin="KL"/>
-<wire x1="-10.16" y1="-40.64" x2="-5.08" y2="-40.64" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="-40.64" x2="-5.08" y2="-50.8" width="0.1524" layer="91"/>
-<pinref part="CAN-14" gate="-2" pin="KL"/>
-<wire x1="-5.08" y1="-50.8" x2="-5.08" y2="-60.96" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="-60.96" x2="-5.08" y2="-71.12" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="-71.12" x2="-5.08" y2="-76.2" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="-76.2" x2="-5.08" y2="-81.28" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="-81.28" x2="-10.16" y2="-81.28" width="0.1524" layer="91"/>
-<pinref part="CAN-13" gate="-2" pin="KL"/>
-<wire x1="-10.16" y1="-71.12" x2="-5.08" y2="-71.12" width="0.1524" layer="91"/>
-<junction x="-5.08" y="-71.12"/>
-<pinref part="CAN-12" gate="-2" pin="KL"/>
-<wire x1="-10.16" y1="-60.96" x2="-5.08" y2="-60.96" width="0.1524" layer="91"/>
-<junction x="-5.08" y="-60.96"/>
-<pinref part="CAN-11" gate="-2" pin="KL"/>
-<wire x1="-10.16" y1="-50.8" x2="-5.08" y2="-50.8" width="0.1524" layer="91"/>
-<junction x="-5.08" y="-50.8"/>
-<wire x1="7.62" y1="-76.2" x2="-5.08" y2="-76.2" width="0.1524" layer="91"/>
-<junction x="7.62" y="-76.2"/>
-<junction x="-5.08" y="-76.2"/>
-<junction x="7.62" y="-35.56"/>
-<wire x1="-5.08" y1="-30.48" x2="-5.08" y2="-40.64" width="0.1524" layer="91"/>
-<junction x="-5.08" y="-30.48"/>
-<junction x="-5.08" y="-40.64"/>
-<wire x1="7.62" y1="-35.56" x2="7.62" y2="-25.4" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="JUMPER1" gate="J$1" pin="1"/>
@@ -5812,99 +5714,146 @@ CONN_03
 <wire x1="2.54" y1="30.48" x2="-2.54" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="CAN-A" class="0">
+<net name="G" class="0">
 <segment>
-<pinref part="CAN-10" gate="-1" pin="KL"/>
-<pinref part="CAN-14" gate="-1" pin="KL"/>
-<wire x1="-7.62" y1="-35.56" x2="-7.62" y2="-45.72" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="-45.72" x2="-7.62" y2="-55.88" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="-55.88" x2="-7.62" y2="-66.04" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="-66.04" x2="-7.62" y2="-76.2" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="-76.2" x2="-10.16" y2="-76.2" width="0.1524" layer="91"/>
-<pinref part="CAN-13" gate="-1" pin="KL"/>
-<wire x1="-10.16" y1="-66.04" x2="-7.62" y2="-66.04" width="0.1524" layer="91"/>
-<junction x="-7.62" y="-66.04"/>
-<pinref part="CAN-12" gate="-1" pin="KL"/>
-<wire x1="-10.16" y1="-55.88" x2="-7.62" y2="-55.88" width="0.1524" layer="91"/>
-<junction x="-7.62" y="-55.88"/>
-<pinref part="CAN-11" gate="-1" pin="KL"/>
-<wire x1="-10.16" y1="-45.72" x2="-7.62" y2="-45.72" width="0.1524" layer="91"/>
-<junction x="-7.62" y="-45.72"/>
-<pinref part="CAN-15" gate="-1" pin="KL"/>
-<wire x1="10.16" y1="-40.64" x2="5.08" y2="-40.64" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="-40.64" x2="5.08" y2="-50.8" width="0.1524" layer="91"/>
-<junction x="5.08" y="-40.64"/>
-<pinref part="CAN-19" gate="-1" pin="KL"/>
-<wire x1="5.08" y1="-50.8" x2="5.08" y2="-60.96" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="-60.96" x2="5.08" y2="-71.12" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="-71.12" x2="5.08" y2="-81.28" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="-81.28" x2="10.16" y2="-81.28" width="0.1524" layer="91"/>
-<pinref part="CAN-18" gate="-1" pin="KL"/>
-<wire x1="10.16" y1="-71.12" x2="5.08" y2="-71.12" width="0.1524" layer="91"/>
-<junction x="5.08" y="-71.12"/>
-<pinref part="CAN-17" gate="-1" pin="KL"/>
-<wire x1="10.16" y1="-60.96" x2="5.08" y2="-60.96" width="0.1524" layer="91"/>
-<junction x="5.08" y="-60.96"/>
-<pinref part="CAN-16" gate="-1" pin="KL"/>
-<wire x1="10.16" y1="-50.8" x2="5.08" y2="-50.8" width="0.1524" layer="91"/>
-<junction x="5.08" y="-50.8"/>
-<wire x1="-10.16" y1="-35.56" x2="-7.62" y2="-35.56" width="0.1524" layer="91"/>
-<junction x="-7.62" y="-35.56"/>
-<pinref part="CAN-0" gate="-1" pin="KL"/>
-<pinref part="CAN-4" gate="-1" pin="KL"/>
-<wire x1="-7.62" y1="15.24" x2="-7.62" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="12.7" x2="-7.62" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="-15.24" x2="-7.62" y2="-25.4" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="-25.4" x2="-10.16" y2="-25.4" width="0.1524" layer="91"/>
-<pinref part="CAN-3" gate="-1" pin="KL"/>
-<wire x1="-10.16" y1="-15.24" x2="-7.62" y2="-15.24" width="0.1524" layer="91"/>
-<junction x="-7.62" y="-15.24"/>
-<pinref part="CAN-2" gate="-1" pin="KL"/>
-<wire x1="-10.16" y1="-5.08" x2="-7.62" y2="-5.08" width="0.1524" layer="91"/>
-<junction x="-7.62" y="-5.08"/>
-<pinref part="CAN-1" gate="-1" pin="KL"/>
-<wire x1="-10.16" y1="5.08" x2="-7.62" y2="5.08" width="0.1524" layer="91"/>
-<junction x="-7.62" y="5.08"/>
+<pinref part="CAN-R2" gate="G$1" pin="2"/>
+<pinref part="CAN-R1" gate="G$1" pin="2"/>
+<wire x1="12.7" y1="45.72" x2="12.7" y2="30.48" width="0.1524" layer="91"/>
+<junction x="12.7" y="30.48"/>
+<wire x1="12.7" y1="17.78" x2="12.7" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="17.78" x2="7.62" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="C00" gate="-2" pin="KL"/>
 <pinref part="CAN-5" gate="-1" pin="KL"/>
-<wire x1="10.16" y1="10.16" x2="5.08" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="10.16" x2="5.08" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="12.7" x2="-7.62" y2="12.7" width="0.1524" layer="91"/>
-<junction x="-7.62" y="12.7"/>
-<wire x1="5.08" y1="10.16" x2="5.08" y2="0" width="0.1524" layer="91"/>
-<junction x="5.08" y="10.16"/>
-<pinref part="CAN-9" gate="-1" pin="KL"/>
-<wire x1="5.08" y1="0" x2="5.08" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="-10.16" x2="5.08" y2="-20.32" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="-20.32" x2="5.08" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="-30.48" x2="10.16" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="10.16" x2="7.62" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="10.16" x2="10.16" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="17.78" x2="7.62" y2="10.16" width="0.1524" layer="91"/>
+<junction x="7.62" y="10.16"/>
+<pinref part="C02" gate="-1" pin="KL"/>
+<pinref part="CAN-7" gate="-2" pin="KL"/>
+<wire x1="-10.16" y1="-5.08" x2="7.62" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="-5.08" x2="10.16" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="10.16" x2="7.62" y2="-5.08" width="0.1524" layer="91"/>
+<junction x="7.62" y="-5.08"/>
+<pinref part="C03" gate="-2" pin="KL"/>
 <pinref part="CAN-8" gate="-1" pin="KL"/>
-<wire x1="10.16" y1="-20.32" x2="5.08" y2="-20.32" width="0.1524" layer="91"/>
-<junction x="5.08" y="-20.32"/>
-<pinref part="CAN-7" gate="-1" pin="KL"/>
-<wire x1="10.16" y1="-10.16" x2="5.08" y2="-10.16" width="0.1524" layer="91"/>
-<junction x="5.08" y="-10.16"/>
-<pinref part="CAN-6" gate="-1" pin="KL"/>
-<wire x1="10.16" y1="0" x2="5.08" y2="0" width="0.1524" layer="91"/>
-<junction x="5.08" y="0"/>
-<wire x1="-10.16" y1="15.24" x2="-7.62" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="15.24" x2="-7.62" y2="17.78" width="0.1524" layer="91"/>
-<junction x="-7.62" y="15.24"/>
-<wire x1="-7.62" y1="17.78" x2="-12.7" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="17.78" x2="-12.7" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="-20.32" x2="7.62" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="-20.32" x2="10.16" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="-20.32" width="0.1524" layer="91"/>
+<junction x="7.62" y="-20.32"/>
+<pinref part="CAN-10" gate="-1" pin="KL"/>
+<pinref part="CAN-15" gate="-2" pin="KL"/>
+<wire x1="-10.16" y1="-35.56" x2="7.62" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="-35.56" x2="10.16" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="-20.32" x2="7.62" y2="-35.56" width="0.1524" layer="91"/>
+<junction x="7.62" y="-35.56"/>
+<pinref part="CAN-11" gate="-2" pin="KL"/>
+<pinref part="CAN-16" gate="-1" pin="KL"/>
+<wire x1="-10.16" y1="-50.8" x2="7.62" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="-50.8" x2="10.16" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="-35.56" x2="7.62" y2="-50.8" width="0.1524" layer="91"/>
+<junction x="7.62" y="-50.8"/>
+<pinref part="CAN-13" gate="-1" pin="KL"/>
+<pinref part="CAN-18" gate="-2" pin="KL"/>
+<wire x1="-10.16" y1="-66.04" x2="7.62" y2="-66.04" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="-66.04" x2="10.16" y2="-66.04" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="-50.8" x2="7.62" y2="-66.04" width="0.1524" layer="91"/>
+<junction x="7.62" y="-66.04"/>
+</segment>
+</net>
+<net name="Y" class="0">
+<segment>
+<pinref part="JUMPER2" gate="J$1" pin="2"/>
+<wire x1="-5.08" y1="30.48" x2="-5.08" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="JUMPER1" gate="J$1" pin="2"/>
+<wire x1="-5.08" y1="48.26" x2="-5.08" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="48.26" x2="-12.7" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="33.02" x2="-12.7" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="33.02" x2="-5.08" y2="33.02" width="0.1524" layer="91"/>
 <junction x="-12.7" y="33.02"/>
-<wire x1="-5.08" y1="48.26" x2="-12.7" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="JUMPER1" gate="J$1" pin="2"/>
-<wire x1="-5.08" y1="48.26" x2="-5.08" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="JUMPER2" gate="J$1" pin="2"/>
-<wire x1="-5.08" y1="30.48" x2="-5.08" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="-35.56" x2="-7.62" y2="-25.4" width="0.1524" layer="91"/>
-<junction x="-7.62" y="-25.4"/>
-<wire x1="5.08" y1="-40.64" x2="5.08" y2="-30.48" width="0.1524" layer="91"/>
-<junction x="5.08" y="-30.48"/>
+<wire x1="-7.62" y1="17.78" x2="-12.7" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="17.78" x2="-12.7" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="C00" gate="-1" pin="KL"/>
+<pinref part="CAN-5" gate="-2" pin="KL"/>
+<wire x1="-10.16" y1="15.24" x2="-7.62" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="15.24" x2="10.16" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="17.78" x2="-7.62" y2="15.24" width="0.1524" layer="91"/>
+<junction x="-7.62" y="15.24"/>
+<pinref part="C01" gate="-2" pin="KL"/>
+<pinref part="CAN-6" gate="-1" pin="KL"/>
+<wire x1="-10.16" y1="0" x2="-7.62" y2="0" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="0" x2="10.16" y2="0" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="15.24" x2="-7.62" y2="0" width="0.1524" layer="91"/>
+<junction x="-7.62" y="0"/>
+<pinref part="C03" gate="-1" pin="KL"/>
+<pinref part="CAN-8" gate="-2" pin="KL"/>
+<wire x1="-10.16" y1="-15.24" x2="-7.62" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="-15.24" x2="10.16" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="0" x2="-7.62" y2="-15.24" width="0.1524" layer="91"/>
+<junction x="-7.62" y="-15.24"/>
+<pinref part="C04" gate="-2" pin="KL"/>
+<pinref part="CAN-9" gate="-1" pin="KL"/>
+<wire x1="-10.16" y1="-30.48" x2="-7.62" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="-30.48" x2="10.16" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="-15.24" x2="-7.62" y2="-30.48" width="0.1524" layer="91"/>
+<junction x="-7.62" y="-30.48"/>
+<pinref part="CAN-11" gate="-1" pin="KL"/>
+<pinref part="CAN-16" gate="-2" pin="KL"/>
+<wire x1="-10.16" y1="-45.72" x2="-7.62" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="-45.72" x2="10.16" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="-30.48" x2="-7.62" y2="-45.72" width="0.1524" layer="91"/>
+<junction x="-7.62" y="-45.72"/>
+<pinref part="CAN-17" gate="-1" pin="KL"/>
+<pinref part="CAN-12" gate="-2" pin="KL"/>
+<wire x1="10.16" y1="-60.96" x2="-7.62" y2="-60.96" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="-60.96" x2="-10.16" y2="-60.96" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="-45.72" x2="-7.62" y2="-60.96" width="0.1524" layer="91"/>
+<junction x="-7.62" y="-60.96"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<pinref part="CAN-20" gate="-1" pin="KL"/>
+<pinref part="CAN-20" gate="-2" pin="KL"/>
+<wire x1="0" y1="-96.52" x2="0" y2="-101.6" width="0.1524" layer="91"/>
+<pinref part="C01" gate="-1" pin="KL"/>
+<pinref part="CAN-6" gate="-2" pin="KL"/>
+<wire x1="-10.16" y1="5.08" x2="2.54" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="5.08" x2="10.16" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="-25.4" x2="2.54" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="-40.64" x2="2.54" y2="-55.88" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="-55.88" x2="2.54" y2="-71.12" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="-71.12" x2="2.54" y2="-93.98" width="0.1524" layer="91"/>
+<wire x1="0" y1="-96.52" x2="0" y2="-93.98" width="0.1524" layer="91"/>
+<wire x1="0" y1="-93.98" x2="2.54" y2="-93.98" width="0.1524" layer="91"/>
+<junction x="0" y="-96.52"/>
+<pinref part="CAN-18" gate="-1" pin="KL"/>
+<pinref part="CAN-13" gate="-2" pin="KL"/>
+<wire x1="10.16" y1="-71.12" x2="2.54" y2="-71.12" width="0.1524" layer="91"/>
+<junction x="2.54" y="-71.12"/>
+<wire x1="2.54" y1="-71.12" x2="-10.16" y2="-71.12" width="0.1524" layer="91"/>
+<pinref part="CAN-17" gate="-2" pin="KL"/>
+<pinref part="CAN-12" gate="-1" pin="KL"/>
+<wire x1="10.16" y1="-55.88" x2="2.54" y2="-55.88" width="0.1524" layer="91"/>
+<junction x="2.54" y="-55.88"/>
+<wire x1="2.54" y1="-55.88" x2="-10.16" y2="-55.88" width="0.1524" layer="91"/>
+<pinref part="CAN-10" gate="-2" pin="KL"/>
+<pinref part="CAN-15" gate="-1" pin="KL"/>
+<wire x1="-10.16" y1="-40.64" x2="2.54" y2="-40.64" width="0.1524" layer="91"/>
+<junction x="2.54" y="-40.64"/>
+<wire x1="2.54" y1="-40.64" x2="10.16" y2="-40.64" width="0.1524" layer="91"/>
+<pinref part="C04" gate="-1" pin="KL"/>
+<pinref part="CAN-9" gate="-2" pin="KL"/>
+<wire x1="-10.16" y1="-25.4" x2="2.54" y2="-25.4" width="0.1524" layer="91"/>
+<junction x="2.54" y="-25.4"/>
+<wire x1="2.54" y1="-25.4" x2="10.16" y2="-25.4" width="0.1524" layer="91"/>
+<pinref part="C02" gate="-2" pin="KL"/>
+<pinref part="CAN-7" gate="-1" pin="KL"/>
+<wire x1="-10.16" y1="-10.16" x2="2.54" y2="-10.16" width="0.1524" layer="91"/>
+<junction x="2.54" y="-10.16"/>
+<wire x1="2.54" y1="-10.16" x2="10.16" y2="-10.16" width="0.1524" layer="91"/>
+<junction x="2.54" y="5.08"/>
 </segment>
 </net>
 </nets>
