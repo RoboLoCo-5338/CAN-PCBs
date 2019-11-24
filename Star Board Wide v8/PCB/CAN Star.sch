@@ -269,7 +269,8 @@
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.0508" drill="0.1016">
+<clearance class="0" value="0.0508"/>
 </class>
 </classes>
 <parts>
@@ -529,10 +530,6 @@
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="113,1,-6.41773,42.5027,JUMPER1,,,,,"/>
-<approved hash="113,1,-6.41773,27.2627,JUMPER2,,,,,"/>
-</errors>
 </schematic>
 </drawing>
 </eagle>
