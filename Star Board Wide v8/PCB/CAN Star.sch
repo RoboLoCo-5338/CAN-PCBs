@@ -272,6 +272,9 @@
 <class number="0" name="default" width="0.0508" drill="0.1016">
 <clearance class="0" value="0.0508"/>
 </class>
+<class number="1" name="GND" width="0.0762" drill="0.1016">
+<clearance class="1" value="0.0762"/>
+</class>
 </classes>
 <parts>
 <part name="U$1" library="custom" deviceset="2-3-TERMS" device=""/>
@@ -454,7 +457,7 @@
 <junction x="30.48" y="-53.34"/>
 </segment>
 </net>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND0"/>
 <pinref part="U$1" gate="G$1" pin="GND1"/>
