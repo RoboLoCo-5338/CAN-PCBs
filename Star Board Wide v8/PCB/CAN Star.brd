@@ -727,6 +727,12 @@ Your Multi-CB Team
 <vertex x="114.046" y="74.93"/>
 <vertex x="0" y="74.676"/>
 </polygon>
+<polygon width="0.1524" layer="1" isolate="0.508">
+<vertex x="0.508" y="0.508"/>
+<vertex x="114.554" y="0.762"/>
+<vertex x="114.554" y="75.438"/>
+<vertex x="0.508" y="75.184"/>
+</polygon>
 </signal>
 </signals>
 <mfgpreviewcolors>
