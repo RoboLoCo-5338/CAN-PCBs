@@ -37,14 +37,14 @@ For each board, there are also images of the board layout and schematic in Eagle
 # Versions
 
 ## Star Board v7 (aka Competition PCB)
-This is the current production board that is tested and in use on RoboLoCo's 2019 robot. 
+This is a current production board that is tested and in use on RoboLoCo's 2019 robot. 
 
 ## Star Board v8
 This is incomplete and under active development. 
 
 ## Star Board Wide v9
 ### Overview
-This is the current production board that is tested and in use on RoboLoCo's 2020 robot. 
+This is a current production board that is tested and in use on RoboLoCo's 2020 robot. 
 
 ### "Ground" Connection
 For FRC the "ground" on the board should be used with the sheild on sheilded twisted pair cable. RoboLoCo is leaving it to float. 
