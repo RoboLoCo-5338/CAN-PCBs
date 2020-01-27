@@ -3,9 +3,12 @@ The goal of this project was to create a Printed Circuit Board (PCB) for our Con
 You can learn more CAN and various topologies [here](http://www.mindsensors.com/content/86-can-and-its-topology).
 Each v7 and v8 board was designed to accommodate up to **10** CAN devices, i.e., 8 Victor SPXs or Talon SRXs along with a Power Distribution Panel and RoboRIO.
 The v9 board allows for up to **24** connections per board including a "ground" connection for each. 
+
 Easy expansion is possible by linking multiple boards to each other directly to increase the total number of connections, i.e., 2 boards allows for 18 total connections.
 When combined with code that is fault-tolerant, it can be possible to recover from the loss or disconnection of a device on the bus, which would be catastrophic on a daisy-chained network.
+
 This project contains two folders, one for the PCB that our team currently uses on our competition robot, as well as one for the PCB that we plan to handout at the Chesapeake District Championships.
+
 We have used these boards for two districts events, and are satisfied with their excellent performance and ease of wiring.
 
 # RoboLoCo
