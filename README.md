@@ -1,7 +1,8 @@
 # Quick Overview
 The goal of this project was to create a Printed Circuit Board (PCB) for our Controller Area Network (CAN) Bus using a star topology for our robot.
 You can learn more CAN and various topologies [here](http://www.mindsensors.com/content/86-can-and-its-topology).
-Each board was designed to accommodate up to **10** CAN devices, i.e., 8 Victor SPXs or Talon SRXs along with a Power Distribution Panel and RoboRIO.
+Each v7 and v8 board was designed to accommodate up to **10** CAN devices, i.e., 8 Victor SPXs or Talon SRXs along with a Power Distribution Panel and RoboRIO.
+The v9 board allows for up to **24** connections per board including a "ground" connection for each. 
 Easy expansion is possible by linking multiple boards to each other directly to increase the total number of connections, i.e., 2 boards allows for 18 total connections.
 When combined with code that is fault-tolerant, it can be possible to recover from the loss or disconnection of a device on the bus, which would be catastrophic on a daisy-chained network.
 This project contains two folders, one for the PCB that our team currently uses on our competition robot, as well as one for the PCB that we plan to handout at the Chesapeake District Championships.
@@ -31,14 +32,22 @@ The DRU file used by our PCB fab, [Silver Circuits](http://www.custompcb.com), i
 For each board, there are also images of the board layout and schematic in Eagle, a render of the holder, and images of the actual PCB in the 3D-printed holder.
 
 # Versions
+
 ## Star Board v7 (aka Competition PCB)
 This is the current production board that is tested and in use on RoboLoCo's 2019 robot. 
 
 ## Star Board v8
 This is incomplete and under active development. 
 
-## Star Board Wide v8
-This is incomplete and under active development. 
+## Star Board Wide v9
+### Overview
+This is the current production board that is tested and in use on RoboLoCo's 2020 robot. 
+
+### "Ground" Connection
+For FRC the "ground" on the board should be used with the sheild on sheilded twisted pair cable. RoboLoCo is leaving it to float. 
+It's possible to attach to either the neg power or chassis. However both options carry slight risks during inspection. If attached to the 
+chassis any instance of the shield touching **any** electrical connections even slightly will cause the chassis to be electrically connected 
+to the electrical system. A related issue happens if using the chassis for the sheild. 
 
 # Final Notes
 If you have any questions, feel reach out and contact us at contact@roboloco.org.
