@@ -9,7 +9,7 @@ When combined with code that is fault-tolerant, it can be possible to recover fr
 
 This project contains two folders, one for the PCB that our team currently uses on our competition robot, as well as one for the PCB that we plan to handout at the Chesapeake District Championships.
 
-We have used these boards since 2017 and are satisfied with their excellent performance and ease of wiring.
+We have used these boards since the 2017/2018 season and are satisfied with their excellent performance and ease of wiring.
 
 # RoboLoCo
 * [RoboLoCo's Website](https://www.roboloco.org)
