@@ -1,3 +1,3 @@
-Images created from http://oshpark.com/
+Images created from http://oshpark.com/ by uploading the CAMOutputs.zip which contains the CAM files. 
 
-Gerber files exported from 9.6.2
+CAM files exported from Eagle 9.6.2
